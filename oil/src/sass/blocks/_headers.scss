@@ -1,0 +1,65 @@
+.header {
+    background: url(../img/image.png) no-repeat center top / cover;
+    padding: 20px 0 100px;
+
+    &__logo {
+    }
+
+    &__navigation {
+        margin-left: auto;
+    }
+
+    &__menu {
+        display: flex;
+    }
+
+    &__item {
+        margin-left: 70px;
+        a:hover {
+            color: #ffffff;
+            width: 108px;
+            height: 1px;
+            border-bottom: 3px solid #ffcf22;
+        }
+    }
+
+    &__link {
+        color: #fff;
+        font-size: 20px;
+        font-weight: 700;
+
+    }
+
+    &__phone {
+        font-size: 18px;
+        font-weight: 700;
+        margin-top: 2px;
+        margin-left: auto;
+    }
+
+    &__number {
+        color: #fff;
+    }
+    &__title {
+        text-align: center;
+        margin-top: 329px;
+	}
+	&__text {
+        font-size: 50px;
+        color: #fff;
+    }
+    p {
+        color: #fff; 
+        text-transform: uppercase;
+        font-size: 25px;
+        font-weight: 700;
+        margin-top: 10px;
+    }
+}
+
+
+
+
+
+
+
